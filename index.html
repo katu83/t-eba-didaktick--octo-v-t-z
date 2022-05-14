@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- inject:css -->
+  <link rel="stylesheet" href="/all-style.css">
+  <!-- endinject -->
+
+  <link href="/images/tree-round.png" rel="shortcut icon" type="image/icon">
+  <link href="/images/tree-round.png" rel="icon" type="image/icon">
+
+  <script src="/vendor/jquery-3.3.1.min.js"></script>
+
+  <script src="/database/raw-people.js"></script>
+  <script src="/database/raw-stories.js"></script>
+  <script src="/database/raw-sources.js"></script>
+  <script src="/database/raw-events.js"></script>
+  <script src="/database/raw-citations.js"></script>
+  <script src="/database/raw-notations.js"></script>
+  <script src="/database/process.js"></script>
+
+  <!-- inject:js -->
+  <script src="/all-app.js"></script>
+  <!-- endinject -->
+</head>
+<body>
+ <div id="body-container">
+    <header id="page-header">
+      <div id="menu-icon"> </div>
+
+      <h1></h1>
+
+      <div id="main-navigation">
+        <div class="close-me">&times;</div>
+        <ul></ul>
+      </div>
+
+      <form id="search-form" action="/">
+        <input name="search">
+        <button type="submit">search</button>
+      </form>
+    </header>
+
+     <section id="page-content">
+     </section>
+
+    <footer id="page-footer"></footer>
+  </div>
+
+  <div id="menu-backdrop"></div>
+</body>
+</html>

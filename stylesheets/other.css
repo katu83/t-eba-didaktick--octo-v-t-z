@@ -1,0 +1,152 @@
+/* PERSON HEADER SECTION */
+
+.person-header img {
+  max-height: 80px;
+  vertical-align: top;
+  margin-right: 15px;
+  border-radius: 40px;
+}
+
+.person-header-content {
+  display: inline-block;
+}
+
+.person-header-events div {
+  display: inline-block;
+  min-width: 30px;
+  padding-top: 5px;
+}
+
+/* ICON LINKS */
+
+.icon-link {
+  height: 30px;
+  line-height: 30px;
+  margin: 5px;
+  font-size: 16px;
+}
+
+.icon-link img {
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  vertical-align: top;
+  margin-right: 10px;
+  border: 1px solid gray;
+}
+
+ul.people-list {
+  list-style: none;
+}
+
+ul.people-list li {
+  margin: 5px;
+}
+
+/* TESTS */
+
+.unit-tests {
+  margin-left: 30px;
+}
+
+.unit-tests.test-passing-false {
+  color: red;
+}
+
+/* OTHER */
+
+.fancy-link {
+  margin-top: 5px;
+}
+
+.fancy-link img {
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.person-family {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.person-family h3 {
+  display: inline-block;
+  width: 180px;
+  vertical-align: top;
+}
+
+.person-family .people-list {
+  display: inline-block;
+  list-style: none;
+}
+
+.person-family li {
+  padding-bottom: 5px;
+}
+
+table.event-list th,
+table.event-list td {
+  border: 1px solid black;
+  padding: 3px;
+}
+
+table.event-list th {
+  background-color: #d1ecfc;
+}
+
+.transcription {
+  background-color: #ddd;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.transcription th,
+.transcription td {
+  border: 1px solid black;
+  padding: 2px;
+  font-size: 12px;
+}
+
+.highlight-search-result {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.header-trail {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.header-trail a {
+  text-decoration: underline;
+}
+
+.leaf-1 {
+  background-image: url(../images/leaf-oak.png);
+  background-repeat: no-repeat;
+}
+
+.leaf-2 {
+  background-image: url(../images/leaf-maple.png);
+  background-repeat: no-repeat;
+}
+
+.person-leaf-header {
+  display: inline-block;
+  background-size: 45px;
+  height: 40px;
+  width: 45px;
+  margin-left: 5px;
+}
+
+.person-leaf-link {
+  display: inline-block;
+  background-size: 20px;
+  height: 20px;
+  width: 23px;
+}
+
+.notation-block {
+  padding: 10px;
+}

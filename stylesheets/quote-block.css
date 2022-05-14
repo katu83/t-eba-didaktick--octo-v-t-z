@@ -1,0 +1,43 @@
+.quote-block {
+}
+
+.quote-block div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.quote-block .left,
+.quote-block .right {
+  width: 30px;
+  height: 30px;
+  background-image: url("/images/quotes.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.quote-block .right {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  vertical-align: bottom;
+}
+
+.quote-block .main {
+  padding: 0 10px;
+}
+
+.quote-block.with-single .main {
+  width: calc(100% - 30px);
+}
+
+.quote-block.with-double .main {
+  width: calc(100% - 60px);
+}
+
+.quote-block .quotation {
+  font-style: italic;
+}
+
+.quote-block .credit {
+  margin-top: 5px;
+  text-align: right;
+}
